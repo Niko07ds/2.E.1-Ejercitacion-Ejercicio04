@@ -39,6 +39,9 @@ La estructura `HashMap` permanece encapsulada dentro de la clase, por lo que otr
 En este ejercicio, los datos se almacenan únicamente en memoria: se pierden cuando termina el proceso de la aplicación. Además, aunque la caché es compartida y 
 sus operaciones están sincronizadas, todavía no se implementa un límite máximo de capacidad ni un mecanismo de expulsión automática de elementos.
 
+## Concepto clave
+put() sirve tanto para agregar como para actualizar. Si la clave ya existe, HashMap reemplaza su valor anterior; si no existe, crea una nueva entrada.
+
 ## Resultado
 ![ejercicio04.png](ejercicio04.png)
 
